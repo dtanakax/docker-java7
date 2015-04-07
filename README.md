@@ -4,14 +4,14 @@
 
 ### Base Docker Image
 
-[debian:wheezy](https://registry.hub.docker.com/_/debian/ "debian:wheezy")
+[debian:wheezy](https://registry.hub.docker.com/_/debian/)
 
 ### 説明
 
 Debian+Java7 Dockerコンテナイメージです。
 
-[Dockerとは？](https://docs.docker.com/ "Dockerとは？")  
-[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/ "Docker Command Reference")
+[Dockerとは？](https://docs.docker.com/)  
+[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
 ### 使用方法
 
@@ -21,11 +21,11 @@ git pull後に
 
 イメージ作成
 
-    $ docker build -t <tag>/java7 .
+    $ docker build -t tanaka0323/java7 .
 
 起動
 
-    $ docker run --name <name> -ti <tag>/java7 bash
+    $ docker run --name <name> -ti tanaka0323/java7 bash
 
 ### License
 
