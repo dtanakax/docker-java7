@@ -1,5 +1,5 @@
 # Set the base image
-FROM debian:wheezy
+FROM tanaka0323/debianjp:wheezy
 
 # File Author / Maintainer
 MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
@@ -15,7 +15,7 @@ RUN \
 
 RUN \
     apt-get -y update && \
-    apt-get -y install oracle-java7-installer=7u76+7u60arm-0~webupd8~0 && \
+    apt-get -y install oracle-java7-installer=7u80+7u60arm-0~webupd8~0 && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /var/cache/oracle-jdk7-installer && \
     apt-get clean all
