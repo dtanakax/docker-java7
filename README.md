@@ -11,7 +11,7 @@ Base Docker Image
 説明
 ---------------------
 
-Debian+Java7 Dockerコンテナイメージです。
+Debian+Java7 Dockerコンテナ作成設定
 
 [Dockerとは？](https://docs.docker.com/)  
 [Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
